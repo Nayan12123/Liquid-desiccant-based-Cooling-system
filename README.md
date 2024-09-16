@@ -52,7 +52,6 @@ python create_eval_dataset.py
 uvicorn api:app --reload
 ```
 You can then open the browser link displayed and add /docs in the link
----------------
 
 
 ## Build Docker Image and run the container
@@ -68,8 +67,7 @@ docker stop qa_container
 docker remove qa_container
 ```
 To see the use the fast API copy and paste the following link on your browser. 
-[http://localhost:8000/docs#/]
-### 
+http://localhost:8000/docs#/
 
 ## File Structure
 The following is an overview of the project's file structure. Each directory and file is explained to clarify its role in the project.
